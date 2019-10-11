@@ -1,0 +1,16 @@
+# Create new bash project
+function newbash() {
+	cp ~/dotfiles/bin/bash_starter bash_starter
+	chmod +x bash_starter
+}
+
+#TODO
+#Create new react project
+
+#Create new react project with typescript
+
+#Create new typorm server
+
+#Create new auth server from boilerplate
+
+#Create new mono repo with server and client

@@ -1,0 +1,39 @@
+#########################################
+# Homebrew                              #
+#########################################
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/opt/homebrew-cask/Caskroom"
+export HOMEBREW_NO_ANALYTICS=1
+
+#########################################
+# History                               #
+#########################################
+export HISTSIZE=32768; # Larger bash history (allow 32³ entries; default is 500)
+export HISTFILESIZE=$HISTSIZE;
+export HISTCONTROL=ignoredups;
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"; # Make some commands not show up in history
+
+#########################################
+# Language                              #
+#########################################
+export LANG="en_US.UTF-8";
+export LC_ALL="en_US.UTF-8";
+
+#########################################
+# Postgres                              #
+#########################################
+export PGHOST=localhost
+export PGDATA=/usr/local/var/postgres
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/12/bin
+
+#########################################
+# nvm                          #
+#########################################
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export PATH=/usr/local/bin:/Users/joshualedbetter1/.nvm/versions/node/v12.8.0/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/12/bin:/Applications/Postgres.app/Contents/Versions/12/bin
+
+#########################################
+# zsh-specific                          #
+#########################################
+setopt RM_STAR_WAIT
