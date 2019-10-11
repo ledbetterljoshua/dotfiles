@@ -56,9 +56,9 @@ brew install caskroom/cask/brew-cask
 
 echo "Copying dotfiles from Github"
 cd ~
-git clone git@github.com:ledbetterljoshua/dotfiles.git .dotfiles
-cd .dotfiles
-sh symdotfiles
+git clone git@github.com:ledbetterljoshua/dotfiles.git dotfiles
+cd dotfiles
+rake
 
 #Install Zsh & Oh My Zsh
 echo "Installing Oh My ZSH..."
