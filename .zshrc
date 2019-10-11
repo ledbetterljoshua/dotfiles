@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-ZSH=$HOME/dotfiles/.oh-my-zsh # Path to your oh-my-zsh configuration.
+ZSH=$HOME/.oh-my-zsh # Path to your oh-my-zsh configuration.
 
 ZSH_THEME="brad-muse"
 DEFAULT_USER="ledbetterljoshua+zshrc@gmail.com"
@@ -23,8 +23,7 @@ plugins=(
   npm 
   npx 
   nvm 
-  brew 
-  brew-cask
+  brew
   zsh-syntax-highlighting
   z
 )
