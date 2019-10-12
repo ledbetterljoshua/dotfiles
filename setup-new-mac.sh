@@ -1,3 +1,5 @@
+# make this executable with `chmod +x setup-new-mac.sh` 
+
 echo "Creating an SSH key for you..."
 ssh-keygen -t rsa
 
