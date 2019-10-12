@@ -103,6 +103,9 @@ brew cask alfred link
 brew cask cleanup
 brew cleanup
 
+echo "Installing macvim"
+brew install macvim
+brew link macvim
 
 echo "Setting some Mac settings..."
 
