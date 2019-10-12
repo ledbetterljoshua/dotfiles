@@ -51,3 +51,10 @@ function root() {
 function f()  {
 	find . -name "$1"
 }
+
+#########################################
+# Git Shortcuts                             #
+#########################################
+function gam()  {
+	ga . && gc -m "$1"
+}

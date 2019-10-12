@@ -31,6 +31,7 @@ alias yst=yarn start
 alias yt=yarn test
 alias ya=yarn add
 alias yad=yarn add -D
+alias yr=yarn run
 
 #########################################
 # IP / Speedtest                        #
