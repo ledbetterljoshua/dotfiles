@@ -8,6 +8,7 @@ alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | printf '=> Public key copied to 
 alias zshconfig="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias ssource='source ~/.zshrc'
+alias install='brew cask install'
 
 #########################################
 # Volum Control - http://xkcd.com/530/  #
@@ -22,6 +23,14 @@ alias v=vim
 alias vi=vim
 alias vim=/Applications/MacVim.app/Contents/MacOS/Vim
 alias mvi=mvim
+
+#########################################
+# YARN                                  #
+#########################################
+alias yst=yarn start
+alias yt=yarn test
+alias ya=yarn add
+alias yad=yarn add -D
 
 #########################################
 # IP / Speedtest                        #
