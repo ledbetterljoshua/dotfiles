@@ -50,6 +50,9 @@ nvm install --lts
 nvm use node
 nvm run node --version
 
+echo "Installing heroku cli (you still need to login manually)"
+brew tap heroku/brew && brew install heroku
+
 echo "Cleaning up brew"
 brew cleanup
 
