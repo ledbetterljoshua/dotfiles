@@ -58,3 +58,6 @@ function f()  {
 function gam()  {
 	ga . && gc -m "$1"
 }
+function gamp()  {
+	ga . && gc -m "$1" && gp
+}
