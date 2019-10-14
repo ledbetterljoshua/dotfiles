@@ -53,6 +53,14 @@ function f()  {
 }
 
 #########################################
+# Yarn Shortcuts                        #
+#########################################
+# add types for package
+function yarnat()  {
+	yarn add "$1" && yarn add -D @types/"$1"
+}
+
+#########################################
 # Git Shortcuts                             #
 #########################################
 function gam()  {
