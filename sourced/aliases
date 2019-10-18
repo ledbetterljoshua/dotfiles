@@ -41,8 +41,8 @@ alias dnb="dn build"
 alias dnr="dn run"
 alias dnt="dn test"
 alias dna="dn add"
-alias dnap="dn add package"
-alias dnar="dn add reference"
+alias dnap="dna package"
+alias dnar="dna reference"
 
 #########################################
 # IP / Speedtest                        #
