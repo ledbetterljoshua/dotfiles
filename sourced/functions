@@ -69,3 +69,6 @@ function gam()  {
 function gamp()  {
 	ga . && gc -m "$1" && gp
 }
+function gitremoteadd()  {
+	git remote add origin git@github.com:ledbetterljoshua/"$1".git && git push -u origin master
+}
