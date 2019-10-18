@@ -55,7 +55,7 @@ function f()  {
 #########################################
 # Yarn Shortcuts                        #
 #########################################
-# add types for package
+# add types for package (this only works when you are adding a single package :( )
 function yarnat()  {
 	yarn add "$1" && yarn add -D @types/"$1"
 }

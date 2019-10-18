@@ -1,7 +1,6 @@
 #########################################
 # Homebrew                              #
 #########################################
-export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/opt/homebrew-cask/Caskroom"
 export HOMEBREW_NO_ANALYTICS=1
 
 #########################################
@@ -28,10 +27,10 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/12/bin
 #########################################
 # nvm                          #
 #########################################
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export PATH=/usr/local/bin:/Users/joshualedbetter1/.nvm/versions/node/v12.8.0/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/12/bin:/Applications/Postgres.app/Contents/Versions/12/bin
+# export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/12/bin:/Applications/Postgres.app/Contents/Versions/12/bin
 
 #########################################
 # zsh-specific                          #
